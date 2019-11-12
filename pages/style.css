@@ -1,43 +1,41 @@
 style.css
 
-
-
 body{
-    background-color: #EDEDED; 
+	background-color:lightgrey;
 }
 
 .navbar{
     max-height: 50px; 
-	background-color: #cacccb; 
+	background-color:white; 
     font-size: 15px; 
 }
 
 .navigation .navbar-brand{
-	color: white; 
+	color:white; 
 	margin-left: 50px; 
 	padding: inherit; 
 	font-weight: bold; 
-	background-color: #38ab87;
-	font-family: Georgia, Times, "Times New Roman", serif;
+	background-color:#1986df;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .dropdown-item{
-    color: #30615c; 
+    color:rgb(88, 88, 88); 
 }
 
 .dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
-    background-color:#adc7c4; 
+    background-color:lightgrey; 
 }
 
 .nav-link:hover{
-    background-color:#adc7c4;
+    background-color:lightgrey;
 }
 
 
 /* Media Queries */
 @media (max-width: 991.98px){
 .navbar-expand-lg{
-	background-color: #38ab87;
+	background-color:white;
 }
 .navbar{
     max-height: none; 
@@ -45,7 +43,7 @@ body{
 }
 .navbar div{
     margin: inherit; 
-    background-color: white;  
+    background-color:white;  
 }
 .navbar-brand{
     padding: 10px; 
@@ -64,24 +62,24 @@ button:focus {
 	margin-top: 30px;
 	margin-bottom: 60px;
 	padding: 10px 30px 5px;
-	color: black;
-	background-color: white;
+	color:grey;
+	background-color:white;
 }
 
 .imageNav-content {
 	margin-top: 40px;
 	margin-bottom: 20px;
 	padding: 10px 30px 40px;
-	color: black;
+	color: grey;
 	background-color: white;
 }
 .description-header, .imageNav-header {
 	padding-top: 15px; 
 	padding-left: 4px;
-	color: #38ab87;
+	color: #1986df;
 	font-size: 26px;
 	font-weight: bold;
-	font-family: Georgia, Times, "Times New Roman", serif;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 img{
@@ -96,22 +94,22 @@ img{
 }
 
 p{
-	color: #414d4a;
+	color: grey;
 	font-size: 14px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .active, .imageNav-photo:hover{
-    border-color:#38ab87;
+    border-color:#1986df;
     border-style: solid; 
 }
 
 .footer{
-	background-color: #505251; 
+	background-color:rgb(88, 88, 88); 
     border-top-style: solid; 
     border-top-width: 4px; 
-    border-top-color: #38ab87;
+    border-top-color:#1986df;
     color: white; 
     min-height: 50px; 
     font-family: Arial, Helvetica, sans-serif;
